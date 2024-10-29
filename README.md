@@ -28,6 +28,9 @@ This project is a Node.js application that implements a task queue with rate lim
 ## Running the Application
 
 - **Start Redis using Docker (see the Docker setup instructions below).**
+   ```bash
+   docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+
 - **Run the Node.js application:**
     Run the Node.js application:
   ```bash

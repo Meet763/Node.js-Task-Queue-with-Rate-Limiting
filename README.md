@@ -74,7 +74,6 @@ The application logs task processing times to a file named `task_log.txt`. Each 
 
 To test the API, use Postman or another API client. Test the `/task` endpoint by making a POST request to:
 
-    ```plaintext
      http://localhost:3000/task
 
 
